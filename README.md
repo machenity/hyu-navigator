@@ -6,7 +6,7 @@ Optimal path search for HYU Seoul Campus.
 
 ## Getting Started
 
-*WARNING; these project hasn't be tested in macOS/Linux environments. I hope you run this project in Windows*
+*WARNING; This project hasn't be tested in macOS/Linux environments. I hope you run this project in Windows*
 
 ### Prerequisites
 
