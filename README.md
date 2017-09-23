@@ -1,6 +1,7 @@
 # HYU Navigator
 
 한양대학교 서울캠퍼스 보행자를 위한 최적 경로 찾기.
+
 Optimal path search for HYU Seoul Campus.
 
 ## Getting Started
@@ -54,8 +55,9 @@ Special thanks to 김휘찬, 이지원, 심승현, 윤민석, 조한빛.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
 * This was made for 소프트웨어입문설계.
+
