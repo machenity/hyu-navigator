@@ -1,28 +1,61 @@
-# 한양대 길찾기 프로그램
+# HYU Navigator
 
-## 1. 제작자
-개발자: 유정민
-디자이너: 김휘찬
-발표자: 이지원
-매니저: 심승현, 윤민석, 조한빛
+한양대학교 서울캠퍼스 보행자를 위한 최적 경로 찾기.
+Optimal path search for HYU Seoul Campus.
 
-## 2. 의존성
-* Windows 10
-* Python 3.5.3 on win32 (64 bit)
-* networkx 1.11
-* PyQt4 4.11.4
-* Python for Windows Extensions (개발 과정에서만 사용)
+## Getting Started
 
-## 3. 개발 과정
-1. 각 지점간의 거리와 경사, 계단 유무 등을 적용한 수치값을 나타내는 행렬을 xlsx 파일로 작성
-2. (readmap.py) 각 xlsx 파일을 읽어 networkx에서 거리를 나타내는 형태의 코드로 바꿔줌
-※ 파일의 위치는 적절히 변경
-3. (maps.py) 각 지점과 그 사이 길들을 networkx의 node와 edge로 입력한다.
-4. (maps.py) source와 target을 입력하면 최단경로를 List로 반환하는 함수를 작성한다.
-5. (gui.py) GUI를 구현
+*WARNING; these project hasn't be tested in macOS/Linux environments. I hope you run this project in Windows*
 
-## 4. 실행 방법
-1. 위의 의존성들을 모두 설치한 후 gui.py가 위치한 디렉터리로 이동한다.
-2. 명령 프롬프트 혹은 Powershell에서 다음 코드를 실행한다.
+### Prerequisites
 
-<pre><code>python gui.py</code></pre>
+#### Install the dependencies
+```
+$ pip install networkx PyQt4
+```
+or
+```
+$ pip3 install networkx PyQt4
+```
+
+### Installing
+
+1. Clone this repository or download ZIP.
+```
+$ git clone https://github.com/machenity/hyu-navigator.git
+```
+
+2. Run gui.py.
+```
+$ cd hyu-navigator
+$ python run.py
+```
+
+If you use both python2 & 3, try this.
+```
+$ python3 run.py
+```
+
+
+## Built With
+
+* [PyQt4](http://pyqt.sourceforge.net/Docs/PyQt4/index.html) - The GUI framework used
+* [NetworkX](https://networkx.github.io/) - Draw Map Graph
+
+## Contributing
+
+Please send email to machenity@gmail.com for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Authors
+
+* **Jeongmin Yu** - *Initial work* - [machenity](https://github.com/machenity)
+
+Special thanks to 김휘찬, 이지원, 심승현, 윤민석, 조한빛.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* This was made for 소프트웨어입문설계.
